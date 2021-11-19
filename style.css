@@ -1,0 +1,24 @@
+ .card{
+   margin: 0 auto;
+   
+ }
+ 
+ .btn-circle{
+   width: 2.5em;
+   height: 2.5em;
+   border-radius: 2em;
+   text-align: center;
+   font-size: 1.5em;
+ }
+ 
+ #equals{
+   width: 11em;
+ }
+ 
+ #display{
+   color: white;
+   height: 3em;
+   text-align: right;
+   font-size: 1.5em;
+   
+ }
