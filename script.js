@@ -20,7 +20,7 @@ function press(val){
     }
   }else if(inputUser != "="){
     signs[0] = inputUser;
-   //getDisplay.innerText = signs[0];
+ 
     
   }else if(inputUser == "C"){
     getDisplay.innerText = inputUser;
