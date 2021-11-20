@@ -18,16 +18,16 @@ function press(val){
       displayInput = parseFloat(nextNum.join(""));
       getDisplay.innerText = displayInput;
     }
-  }else if(inputUser != "="){
+  }else if(inputUser != "=" && inputUser != "C"){
     signs[0] = inputUser;
  
     
   }else if(inputUser == "C"){
-    getDisplay.innerText = inputUser;
-    console.log("clear")
+    getDisplay.innerText ="0";
     nextNum = [];
     startNum = [];
     signs = [];
+
   }else if (inputUser == "="){
     if(signs[0] == "÷"){
       result = startNum / nextNum;
